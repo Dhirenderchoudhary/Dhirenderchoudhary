@@ -1,11 +1,11 @@
-<h1 align="center">Hi 👋, I'm Dhirender</h1>
-<h3 align="center">A passionate developer from India currently contributing to open source contribution.</h3>
+<h1 align="center">Hello , I'm Dhirender</h1>
+<h3 align="center">A Developer from India actively contributing to open source projects.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dhirenderchoudhary&label=Profile%20views&color=0e75b6&style=flat" alt="dhirenderchoudhary" /> </p>
 
 - 🔭 I’m currently working on **Backend Development , Devops**
 
-- 👯 I’m looking to collaborate on **RealDevSquad**
+- 👯 I’m currently a contributor to **RealDevSquad**
 
 - 💬 Ask me about **Nodejs ,**
 
@@ -25,5 +25,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dhirenderchoudhary&show_icons=true&locale=en&layout=compact" alt="dhirenderchoudhary" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dhirenderchoudhary&show_icons=true&locale=en" alt="dhirenderchoudhary" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dhirenderchoudhary&" alt="dhirenderchoudhary" /></p>
