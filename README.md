@@ -15,7 +15,7 @@ Backend Developer • DevOps Enthusiast • Open Source Contributor
 - 🌱 Active **Open Source Contributor at RealDevSquad**
 - 🧠 Interested in **scalable systems, APIs, and infra**
 - 💬 Ask me about **Node.js, Express, APIs, Docker**
-- 📫 Reach me at **Dhirenderchoudhary0001@gmail.com**
+- 📫 Reach me at **Dhirender1112@gmail.com**
 
 ---
 
