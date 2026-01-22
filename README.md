@@ -73,13 +73,12 @@ Backend Developer • DevOps Enthusiast • Open Source Contributor
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dhirenderchoudhary&show_icons=true&theme=default" />
+  <img src="https://github-readme-stats.vercel.app/api?username=dhirenderchoudhary&show_icons=true&theme=github_dark" alt="Dhirender's GitHub Stats" />
 </p>
+
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dhirenderchoudhary&layout=compact" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dhirenderchoudhary&layout=compact&theme=github_dark" alt="Dhirender's Top Languages" />
 </p>
-
----
 
 ⭐ **Open to Backend, Platform & DevOps opportunities**
