@@ -82,13 +82,12 @@
 
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Dhirenderchoudhary&theme=tokyonight">
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Dhirenderchoudhary&theme=tokyonight">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Dhirenderchoudhary&theme=tokyonight">
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Dhirenderchoudhary&theme=tokyonight&utcOffset=8">
 
 
 
- <img src="https://github-stats-alpha.vercel.app/api?username=Dhirenderchoudhary&cc=000&tc=fff&ic=fff&bc=000"> 
-  
+<img src="https://github-stats-alpha.vercel.app/api?username=Dhirenderchoudhary&cc=1a1b27&tc=c0caf5&ic=7aa2f7&bc=1a1b27">
+
 </div>
 
 <!--
