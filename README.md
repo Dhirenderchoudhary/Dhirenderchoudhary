@@ -51,15 +51,45 @@
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/de038172-e903-4951-926c-755878deb0b4" width="90">
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/398b19b1-9aae-4c1f-8bc0-d172a2c08d68" width="90">
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/e0d299f2-767c-4c21-bd49-90f2a19f1a78" width="90">
+<img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="100"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png" alt="postman" width="200"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="100"/>
+<img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" alt="appwrite" width="100"/> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="100"/> 
+<img src="https://camo.githubusercontent.com/c57992ccd8e44fbfa43178e6de1ec1d0974559148afeb3044100e6fc9142311c/68747470733a2f2f74656368737461636b2d67656e657261746f722e76657263656c2e6170702f6370702d69636f6e2e737667" alt="cplusplus" width="170"/>
+<img src="https://camo.githubusercontent.com/4accd2f20a00fd4364e3456b3525b9af98b827afb9d4ec9f62cce6732552fa06/68747470733a2f2f74656368737461636b2d67656e657261746f722e76657263656c2e6170702f6a6176612d69636f6e2e737667" alt="java" width="100"/> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="100"/> 
+<img src="https://camo.githubusercontent.com/166d7510eddc438981693781e5252ddcf99f0445f80b91b7986f2f7f122f9892/68747470733a2f2f74656368737461636b2d67656e657261746f722e76657263656c2e6170702f6d7973716c2d69636f6e2e737667" alt="mysql" width="100"/>  
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100">
+
 
 </div>
 
 ---
+## 📊 GitHub Stats
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=NausheenFaiyaz&label=Profile%20views&color=ff69b4&style=for-the-badge" alt="NausheenFaiyaz" />
+</p>
+  
+<div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dhirenderchoudhary&bg_color=161b22&color=ffffff&line=d5d5d5&point=a76c6c&area=true&hide_border=true&hide_title=true" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NausheenFaiyaz&theme=tokyonight">
+  
+</div> 
 
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+<div align="center">
 
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Dhirenderchoudhary&theme=tokyonight">
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Dhirenderchoudhary&theme=tokyonight">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Dhirenderchoudhary&theme=tokyonight">
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Dhirenderchoudhary&theme=tokyonight&utcOffset=8">
+
+
+
+ <img src="https://github-stats-alpha.vercel.app/api?username=Dhirenderchoudhary&cc=000&tc=fff&ic=fff&bc=000"> 
+  
+</div>
 ---
 
 ## 📊 GitHub Stats
