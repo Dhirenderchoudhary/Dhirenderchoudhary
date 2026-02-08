@@ -69,12 +69,12 @@
 ---
 ## 📊 GitHub Stats
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=NausheenFaiyaz&label=Profile%20views&color=ff69b4&style=for-the-badge" alt="NausheenFaiyaz" />
+  <img src="https://komarev.com/ghpvc/?username=Dhirenderchoudhary&label=Profile%20views&color=ff69b4&style=for-the-badge" alt="Dhirenderchoudhary" />
 </p>
   
 <div align="center">
 
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NausheenFaiyaz&theme=tokyonight">
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dhirenderchoudhary&theme=tokyonight">
   
 </div> 
 
@@ -90,14 +90,15 @@
  <img src="https://github-stats-alpha.vercel.app/api?username=Dhirenderchoudhary&cc=000&tc=fff&ic=fff&bc=000"> 
   
 </div>
----
 
+<!--
 ## 📊 GitHub Stats
 
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=dhirenderchoudhary&hide_border=true" />
 </p>
+-->
 
 
 
