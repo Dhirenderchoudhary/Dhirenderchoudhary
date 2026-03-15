@@ -74,12 +74,13 @@
 </p>
 
 <div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dhirenderchoudhary&theme=tokyonight">
+ <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dhirenderchoudhary&theme=tokyonight">
 </div>
 
-<div align="center">
+ <div align="center">
+<!-- <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dhirenderchoudhary&theme=tokyonight">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dhirenderchoudhary&theme=tokyonight">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dhirenderchoudhary&theme=tokyonight">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dhirenderchoudhary&theme=tokyonight">-->
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=dhirenderchoudhary&theme=tokyonight&utcOffset=8">
   <img src="https://github-stats-alpha.vercel.app/api?username=dhirenderchoudhary&cc=1a1b27&tc=c0caf5&ic=7aa2f7&bc=1a1b27">
 </div>
