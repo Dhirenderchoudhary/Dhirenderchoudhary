@@ -69,9 +69,7 @@
 ---
 
 ## 📊 GitHub Stats
-/* <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=dhirenderchoudhary&label=Profile%20views&color=ff69b4&style=for-the-badge">
-</p> */
+
 
 <div align="center">
  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dhirenderchoudhary&theme=tokyonight">
