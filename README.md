@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Dhirender</h1>
 
 
-<h3 align="center">Backend Developer | DevOps Enthusiast | Open Source Contributor</h3>
+<h3 align="center">Backend Developer | DevOps | Open Source Contributor</h3>
 
 <img align="right" src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" alt="Coding" width="250"/>
 
@@ -11,7 +11,7 @@
 
 - 🔭 Working on <b>Backend Development & DevOps</b>  
 - 🌱 Learning <b>Kubernetes, AWS, CI/CD</b>  
-- 👯 Contributor at <b>RealDevSquad</b>  
+- 👯 Open Source Contributor  
 - 💬 Ask me about <b>Node.js, APIs, Docker</b>  
 - 📫 Reach me <b>Dhirenderchoudhary0001@gmail.com</b>
 
