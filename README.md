@@ -91,11 +91,10 @@
  
  -->
 
-
 <!-- GITHUBWALLPAPER:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://githubwallpaper.com/api/card/hgqb7i87kl86mnorw79sl2wo?theme=dark&v=64b861ff1bcd">
-  <source media="(prefers-color-scheme: light)" srcset="https://githubwallpaper.com/api/card/hgqb7i87kl86mnorw79sl2wo?theme=light&v=64b861ff1bcd">
-  <img alt="GitHub profile card" src="https://githubwallpaper.com/api/card/hgqb7i87kl86mnorw79sl2wo?theme=dark&v=64b861ff1bcd">
+  <source media="(prefers-color-scheme: dark)" srcset="https://githubwallpaper.com/api/card/hgqb7i87kl86mnorw79sl2wo?theme=dark&v=52c6ecfa98b4">
+  <source media="(prefers-color-scheme: light)" srcset="https://githubwallpaper.com/api/card/hgqb7i87kl86mnorw79sl2wo?theme=light&v=52c6ecfa98b4">
+  <img alt="GitHub profile card" src="https://githubwallpaper.com/api/card/hgqb7i87kl86mnorw79sl2wo?theme=dark&v=52c6ecfa98b4">
 </picture>
 <!-- GITHUBWALLPAPER:END -->
