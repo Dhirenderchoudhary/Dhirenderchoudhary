@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Dhirender</h1>
+<!-- <h1 align="center">Hi 👋, I'm Dhirender</h1>
 
 
 <h3 align="center">Backend Developer | DevOps | Open Source Contributor</h3>
@@ -78,7 +78,7 @@
  <div align="center">
 <!-- <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dhirenderchoudhary&theme=tokyonight">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dhirenderchoudhary&theme=tokyonight">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dhirenderchoudhary&theme=tokyonight">-->
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dhirenderchoudhary&theme=tokyonight">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=dhirenderchoudhary&theme=tokyonight&utcOffset=8">
   <img src="https://github-stats-alpha.vercel.app/api?username=dhirenderchoudhary&cc=1a1b27&tc=c0caf5&ic=7aa2f7&bc=1a1b27">
 </div>
@@ -88,8 +88,8 @@
 <p align="center">
   <img src="https://github.com/dhirenderchoudhary/dhirenderchoudhary/blob/output/github-contribution-grid-snake.svg" alt="snake animation">
 </p>
-
----
+ 
+ -->
 
 
 <!-- GITHUBWALLPAPER:START -->
