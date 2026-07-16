@@ -97,5 +97,4 @@
   <source media="(prefers-color-scheme: light)" srcset="https://pub-98d2cd4dac4e4a9d899b190ba95f3ace.r2.dev/cards/hgqb7i87kl86mnorw79sl2wo-light.svg?v=1784164610754">
   <img alt="GitHub profile card" src="https://pub-98d2cd4dac4e4a9d899b190ba95f3ace.r2.dev/cards/hgqb7i87kl86mnorw79sl2wo-dark.svg?v=1784164610754">
 </picture>
-<p align="right"><sub><a href="https://githubwallpaper.com">made with githubwallpaper.com</a></sub></p>
 <!-- GITHUBWALLPAPER:END -->
