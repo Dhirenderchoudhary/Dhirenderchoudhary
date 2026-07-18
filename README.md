@@ -88,8 +88,31 @@
 <p align="center">
   <img src="https://github.com/dhirenderchoudhary/dhirenderchoudhary/blob/output/github-contribution-grid-snake.svg" alt="snake animation">
 </p>
+
+
+<p align="center">
+<a href="https://github.com/ragini-pandey" target="_blank">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DHIRENDERCHOUDHARY&theme=vue" alt="GitHub Profile Summary" />
+</a>
+</p>
+
+<p align="center">
+<a href="https://github.com/ragini-pandey" target="_blank">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DHIRENDERCHOUDHARY&theme=vue" width="320" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/ragini-pandey?tab=repositories" target="_blank">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DHIRENDERCHOUDHARY&theme=vue" width="320" alt="Top Languages" />
+</a>
+</p>
+
+ <p align="center">
+<a href="https://github.com/ragini-pandey" target="_blank">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=DHIRENDERCHOUDHARY&theme=vue&hide_border=true" alt="GitHub Streak" />
+</a>
+</p>
+
+-->
  
- -->
 
 <!-- GITHUBWALLPAPER:START -->
 <picture>
