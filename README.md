@@ -114,6 +114,9 @@
 -->
 
 <!-- GITHUBWALLPAPER:START -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=dhirenderchoudhary&label=Profile%20views&color=0e75b6&style=flat" />
+  <br><br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://pub-98d2cd4dac4e4a9d899b190ba95f3ace.r2.dev/cards/hgqb7i87kl86mnorw79sl2wo-dark.svg?v=1785054519653">
   <source media="(prefers-color-scheme: light)" srcset="https://pub-98d2cd4dac4e4a9d899b190ba95f3ace.r2.dev/cards/hgqb7i87kl86mnorw79sl2wo-light.svg?v=1785054519653">
