@@ -73,8 +73,8 @@ CORSAIR = [
 ]
 
 OPEN_SOURCE = [
-    ("Nano-Collective/nanocoder", 49, "terminal AI coding agent · 2.5k★"),
-    ("corsairdev/corsair", 21, "agent integrations · 14k★"),
+    ("Nano-Collective/nanocoder", 49, "AI coding agent, 2.5k stars"),
+    ("corsairdev/corsair", 21, "agent integrations, 14k stars"),
     ("learning-unlimited/ESP-Website", 19, "GSoC 2026 org"),
     ("RealDevSquad/website-backend", 6, "OOO request workflow, API"),
     ("OpenPrinting/cups-filters", 4, "foomatic-rip hardening"),
@@ -84,14 +84,14 @@ OPEN_SOURCE = [
     ("Nano-Collective/nanotune", 1, "fine-tuning toolkit"),
     ("Nano-Collective/prompt-scrubber", 1, "prompt redaction"),
     ("NVIDIA/aicr", 1, "GPU runtime on Kubernetes"),
-    ("crbnos/carbon", 1, "manufacturing ERP · 2.7k★"),
-    ("reticlehq/reticle", 1, "agent workspace · 1.2k★"),
+    ("crbnos/carbon", 1, "manufacturing ERP, 2.7k stars"),
+    ("reticlehq/reticle", 1, "agent workspace, 1.2k stars"),
     ("volcano-sh/website", 1, "CNCF Volcano"),
-    ("The-OpenROAD-Project/OpenROAD", 1, "chip design · 3.1k★"),
+    ("The-OpenROAD-Project/OpenROAD", 1, "chip design, 3.1k stars"),
     ("The-OpenROAD-Project/OpenROAD-flow-scripts", 1, "RTL-to-GDS flow"),
 ]
 
-IN_REVIEW = "react · dicedb · hydradb · qa-agent · gitpick · braidpool"
+IN_REVIEW = "react, dicedb, hydradb, qa-agent, gitpick, braidpool"
 
 HIGHLIGHTS = [
     ("nanocoder", "semantic memory, shipped in 5 phases", merged("Nano-Collective/nanocoder", "semantic memory")),
@@ -132,8 +132,8 @@ CONTACTS = [
 
 W = 980
 X = 60
-LINE = 30
-ROW = 27
+LINE = 33
+ROW = 30
 PALETTE = {
     "bg": "#0b0e14", "bar": "#131721", "edge": "#262b36",
     "prompt": "#ff9e64", "path": "#7aa2f7", "branch": "#bb9af7",
@@ -179,7 +179,7 @@ class Session:
         self.t += delay * PACE
         self.add(f'<g class="fade" style="animation:fade {dur}s ease {self.t:.2f}s forwards">{inner}</g>')
 
-    def line(self, spans, size=17, gap=LINE, href=None, src=None):
+    def line(self, spans, size=18, gap=LINE, href=None, src=None):
         self.place(self.y - size - (gap - size) // 2 + 2, href, src)
         self.fade(f'<text x="{X}" y="{self.y}" font-size="{size}">{spans}</text>')
         self.y += gap
@@ -196,7 +196,7 @@ class Session:
         )
         self.add(
             f'<g class="type" style="animation:type {typing:.2f}s steps({steps},start) {self.t:.2f}s forwards">'
-            f'<text x="{X}" y="{self.y}" font-size="17">{spans}</text></g>'
+            f'<text x="{X}" y="{self.y}" font-size="18">{spans}</text></g>'
         )
         self.t += typing
         self.y += LINE
@@ -235,11 +235,11 @@ def glyph_rows(src):
 
 def boot(s):
     for msg in ["Started dhirender.service", "Mounted /dev/jiit (B.Tech ECE '27)", "Joined corsair (YC W25) as SWE intern"]:
-        s.line(span("dim", "[  ") + span("ok", "OK") + span("dim", "  ] ") + span("muted", msg), size=14, gap=18)
+        s.line(span("dim", "[  ") + span("ok", "OK") + span("dim", "  ] ") + span("muted", msg), size=15, gap=21)
     s.line(
         span("dim", "[  ") + span("ok", "OK") + span("dim", "  ] ") + span("muted", "Served ")
         + span("accent", "__VIEWS__") + span("muted", " profile views"),
-        size=14, gap=18, src=VIEWS_URL,
+        size=15, gap=21, src=VIEWS_URL,
     )
 
 
@@ -252,8 +252,8 @@ def wordmark(s):
         s.fade(f'<text x="{left:.0f}" y="{s.y + i * 13}" xml:space="preserve" class="art" fill="url(#wm)">{escape(l)}</text>', delay=0.03)
     s.y += len(art) * 13 + 26
     s.fade(
-        f'<text x="{W // 2}" y="{s.y}" text-anchor="middle" class="dim" font-size="14">'
-        "dhirenderchoudhary.com · SWE intern @ Corsair (YC W25) · open source</text>"
+        f'<text x="{W // 2}" y="{s.y}" text-anchor="middle" class="muted" font-size="16">'
+        "full-stack engineer, SWE intern at Corsair (YC W25)</text>"
     )
     s.y += 26
 
@@ -289,7 +289,7 @@ def fetch(s):
     lines = [span("accent", USER) + span("dim", "@") + span("key", HOST), span("dim", "─" * 30)]
     lines += [span("key", key) + span("dim", ": ") + span("text", value) for key, value in FETCH]
     for i, l in enumerate(lines):
-        s.fade(f'<text x="{ix}" y="{iy + i * gap}" font-size="18">{l}</text>', delay=0.04)
+        s.fade(f'<text x="{ix}" y="{iy + i * gap}" font-size="19">{l}</text>', delay=0.04)
     swatch_y = iy + len(lines) * gap - 10
     colors = ["#f7768e", "#ff9e64", "#e0af68", "#9ece6a", "#7dcfff", "#7aa2f7", "#bb9af7", "#c0caf5"]
     s.fade("".join(f'<rect x="{ix + i * 26}" y="{swatch_y}" width="22" height="14" rx="2" fill="{c}"/>' for i, c in enumerate(colors)), delay=0.04)
@@ -300,27 +300,27 @@ def fetch(s):
 def corsair(s):
     s.prompt("cat ~/work/corsair.log")
     s.line(
-        span("accent", "Jul 2026 → now") + span("text", "  Software Engineer Intern · ") + span("key", "Corsair (YC W25)")
-        + span("muted", " · remote ↗"),
+        span("accent", "Jul 2026 → now") + span("text", "  Software Engineer Intern, ") + span("key", "Corsair (YC W25)")
+        + span("muted", ", remote"),
         href="https://github.com/corsairdev/corsair",
     )
     for text, href in CORSAIR:
         mark = span("dim", "    ") if text.startswith(" ") else span("ok", "  ✓ ")
-        s.line(mark + span("text", text.strip()) + (span("dim", " ↗") if href else ""), size=16, gap=ROW, href=href)
+        s.line(mark + span("text", text.strip()), size=17, gap=ROW, href=href)
 
 
 def oss(s):
     s.prompt("gh pr list --author @me --state merged --oss | uniq -c")
     for repo, n, what in OPEN_SOURCE:
-        s.line(span("ok", f"{n:>3}") + span("key", repo, x=X + 50) + span("muted", what, x=X + 520), size=16, gap=ROW, href=merged(repo))
+        s.line(span("ok", f"{n:>3}") + span("key", repo, x=X + 50) + span("muted", what, x=X + 490), size=17, gap=ROW, href=merged(repo))
     s.line(
-        span("dim", "  =") + span("text", " 116 merged · 12 orgs · 16 repos", x=X + 50)
-        + span("muted", "own and friends' repos excluded", x=X + 520),
-        size=16, gap=ROW, href="https://github.com/search?q=" + quote(f"author:{GH} is:pr is:merged -user:{GH}", safe=":") + "&type=pullrequests",
+        span("dim", "  =") + span("text", " 116 merged, 12 orgs, 16 repos", x=X + 50)
+        + span("muted", "not counting my own repos", x=X + 490),
+        size=17, gap=ROW, href="https://github.com/search?q=" + quote(f"author:{GH} is:pr is:merged -user:{GH}", safe=":") + "&type=pullrequests",
     )
     s.line(
         span("branch", "  ~") + span("muted", f" in review: {IN_REVIEW}", x=X + 50),
-        size=16, gap=ROW, href="https://github.com/search?q=" + quote(f"author:{GH} is:pr is:open -user:{GH}", safe=":") + "&type=pullrequests",
+        size=17, gap=ROW, href="https://github.com/search?q=" + quote(f"author:{GH} is:pr is:open -user:{GH}", safe=":") + "&type=pullrequests",
     )
 
 
@@ -328,13 +328,13 @@ def highlights(s):
     s.prompt("git log --oneline --grep=highlight")
     for where, what, href in HIGHLIGHTS:
         sha = hashlib.sha1((where + what).encode()).hexdigest()[:7]
-        s.line(span("accent", sha) + span("branch", f"({where})", x=X + 84) + span("text", what, x=X + 250), size=16, gap=ROW, href=href)
+        s.line(span("accent", sha) + span("branch", f"({where})", x=X + 90) + span("text", what, x=X + 260), size=17, gap=ROW, href=href)
 
 
 def projects(s):
     s.prompt("ls -l ~/projects")
     for name, what, href in PROJECTS:
-        s.line(span("dim", "drwxr-xr-x") + span("key", name, x=X + 116) + span("muted", what, x=X + 290), size=16, gap=ROW, href=href)
+        s.line(span("dim", "drwxr-xr-x") + span("key", name, x=X + 120) + span("muted", what, x=X + 290), size=17, gap=ROW, href=href)
 
 
 def languages(s):
@@ -347,19 +347,19 @@ def languages(s):
             f'<rect x="{X + 140}" y="{s.y - 11}" width="{track}" height="10" rx="5" fill="{PALETTE["edge"]}"/>'
             f'<rect x="{X + 140}" y="{s.y - 11}" width="{fill}" height="10" rx="5" fill="url(#wm)"/>'
         )
-        s.fade(f'{bar}<text x="{X}" y="{s.y}" font-size="17">{span("key", lang)}{span("muted", f"{pct:.1f}%", x=X + 460)}</text>')
+        s.fade(f'{bar}<text x="{X}" y="{s.y}" font-size="18">{span("key", lang)}{span("muted", f"{pct:.1f}%", x=X + 460)}</text>')
         s.y += 28
 
 
 def contacts(s):
     s.prompt("cat ~/.contacts")
     for key, value, href in CONTACTS:
-        s.line(span("key", key) + span("text", value, x=X + 140) + span("dim", " ↗"), href=href)
+        s.line(span("key", key) + span("text", value, x=X + 140), href=href)
 
 
 def outro(s):
     s.prompt("ssh hire@dhirender")
-    s.line(span("ok", "connected") + span("text", " · I treat your product like my own. ") + span("accent", "book a call ↗"), href=CALENDLY)
+    s.line(span("ok", "connected.") + span("text", " say hi or ") + span("accent", "book a call"), href=CALENDLY)
     s.prompt("exit")
     s.line(span("dim", "Connection to ") + span("accent", "dhirender") + span("dim", " closed."))
     s.t += 0.2
@@ -402,7 +402,7 @@ text {{ font-size: 15px; white-space: pre; }}
 <path d="M20 28 A12 12 0 0 1 32 16 H{W - 32} A12 12 0 0 1 {W - 20} 28 V56 H20 Z" fill="{p["bar"]}"/>
 <line x1="20" y1="56" x2="{W - 20}" y2="56" stroke="{p["edge"]}"/>
 <circle cx="42" cy="36" r="6" fill="#ff5f57"/><circle cx="62" cy="36" r="6" fill="#febc2e"/><circle cx="82" cy="36" r="6" fill="#28c840"/>
-<text x="{W // 2}" y="41" text-anchor="middle" class="dim" font-size="13">{USER}@{HOST} — zsh — 98×{round(H / 20)}</text>"""
+<text x="{W // 2}" y="41" text-anchor="middle" class="dim" font-size="13">{USER}@{HOST}: ~</text>"""
 
 
 def render():
@@ -418,14 +418,14 @@ def render():
     slices = [sl for sl in s.slices if sl.parts or sl.top == 0]
     bottoms = [sl.top for sl in slices[1:]] + [H]
     tags = []
-    for i, (sl, bottom) in enumerate(zip(slices, bottoms)):
+    for sl, bottom in zip(slices, bottoms):
         h = bottom - sl.top
-        name = f"{i:02d}.svg"
         svg = (
             f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 {sl.top} {W} {h}" width="{W}" height="{h}" '
             "font-family=\"ui-monospace, 'SF Mono', SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace\">\n"
             f"{chrome}\n" + "\n".join(sl.parts) + "\n</svg>\n"
         )
+        name = hashlib.sha1(svg.encode()).hexdigest()[:10] + ".svg"
         if sl.src:
             VIEWS_TEMPLATE.write_text(f"export default {json.dumps(svg)};\n")
         else:
