@@ -1,125 +1,38 @@
-<!-- <h1 align="center">Hi 👋, I'm Dhirender</h1>
-
-
-<h3 align="center">Backend Developer | DevOps | Open Source Contributor</h3>
-
-<img align="right" src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" alt="Coding" width="250"/>
-
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=dhirenderchoudhary&label=Profile%20views&color=0e75b6&style=flat" />
-  <br><br>
-
-- 🔭 Working on <b>Backend Development & DevOps</b>  
-- 🌱 Learning <b>Kubernetes, AWS, CI/CD</b>  
-- 👯 Open Source Contributor  
-- 💬 Ask me about <b>Node.js, APIs, Docker</b>  
-- 📫 Reach me <b>Dhirenderchoudhary0001@gmail.com</b>
-
-</p>
-
----
-
-## 🌐 Connect with me
-<p align="left">
-  <a href="https://twitter.com/dhirender_0001" target="_blank">
-    <img src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="55">
-  </a>
-  <a href="https://linkedin.com/in/dhirender-choudhary0001" target="_blank">
-    <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="55">
-  </a>
-</p>
-
----
-
-## 🧰 Languages & Tools
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212281756-450d3ffa-9335-4b98-a965-db8a18fee927.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212280805-9bcb336b-8c55-46a8-abf8-ff286ab55472.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="50">
-
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/1a797f46-efe4-41e6-9e75-5303e1bbcbfa" width="50">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="50">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-1a7b1a16eecb" width="50">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/3c16d4f2-b757-4c70-8f42-43d5dddd2c36" width="50">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/3fb2cdf6-8920-462e-87a4-95af376418aa" width="50">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/de038172-e903-4951-926c-755878deb0b4" width="50">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/398b19b1-9aae-4c1f-8bc0-d172a2c08d68" width="50">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/e0d299f2-767c-4c21-bd49-90f2a19f1a78" width="50">
-
-<img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="50">
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png" width="50">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="50">
-<img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" width="50">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="50">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="50">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="50">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="50">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="50">
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-
-<div align="center">
- <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dhirenderchoudhary&theme=tokyonight">
-</div>
-
- <div align="center">
-<!-- <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dhirenderchoudhary&theme=tokyonight">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dhirenderchoudhary&theme=tokyonight">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dhirenderchoudhary&theme=tokyonight">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=dhirenderchoudhary&theme=tokyonight&utcOffset=8">
-  <img src="https://github-stats-alpha.vercel.app/api?username=dhirenderchoudhary&cc=1a1b27&tc=c0caf5&ic=7aa2f7&bc=1a1b27">
-</div>
-
-
-## Contributions
-<p align="center">
-  <img src="https://github.com/dhirenderchoudhary/dhirenderchoudhary/blob/output/github-contribution-grid-snake.svg" alt="snake animation">
-</p>
-
+<!-- terminal:start -->
+<img align="left" width="980" src="./profile/terminal/00.svg" alt=""><a href="https://dhirenderchoudhary.com"><img align="left" width="980" src="./profile/terminal/01.svg" alt=""></a><img align="left" width="980" src="./profile/terminal/02.svg" alt=""><a href="https://github.com/corsairdev/corsair"><img align="left" width="980" src="./profile/terminal/03.svg" alt=""></a><a href="https://github.com/search?q=is:pr%20author:Dhirenderchoudhary%20org:corsairdev&amp;type=pullrequests"><img align="left" width="980" src="./profile/terminal/04.svg" alt=""></a><a href="https://github.com/corsairdev/corsair/pulls?q=is:pr%20reviewed-by:Dhirenderchoudhary%20-author:Dhirenderchoudhary"><img align="left" width="980" src="./profile/terminal/05.svg" alt=""></a><a href="https://github.com/corsairdev/corsair/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged%20plugin"><img align="left" width="980" src="./profile/terminal/06.svg" alt=""></a><a href="https://github.com/corsairdev/corsair/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged%20plugin"><img align="left" width="980" src="./profile/terminal/07.svg" alt=""></a><a href="https://github.com/corsairdev/corsair/pull/278"><img align="left" width="980" src="./profile/terminal/08.svg" alt=""></a><a href="https://github.com/corsairdev/corsair/pull/276"><img align="left" width="980" src="./profile/terminal/09.svg" alt=""></a><a href="https://github.com/corsairdev/corsair/pull/826"><img align="left" width="980" src="./profile/terminal/10.svg" alt=""></a><img align="left" width="980" src="./profile/terminal/11.svg" alt=""><a href="https://github.com/Nano-Collective/nanocoder/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/12.svg" alt=""></a><a href="https://github.com/corsairdev/corsair/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/13.svg" alt=""></a><a href="https://github.com/learning-unlimited/ESP-Website/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/14.svg" alt=""></a><a href="https://github.com/RealDevSquad/website-backend/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/15.svg" alt=""></a><a href="https://github.com/OpenPrinting/cups-filters/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/16.svg" alt=""></a><a href="https://github.com/lucid-softworks/browser/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/17.svg" alt=""></a><a href="https://github.com/RealDevSquad/website-www/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/18.svg" alt=""></a><a href="https://github.com/TeamShiksha/openlogo/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/19.svg" alt=""></a><a href="https://github.com/Nano-Collective/nanotune/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/20.svg" alt=""></a><a href="https://github.com/Nano-Collective/prompt-scrubber/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/21.svg" alt=""></a><a href="https://github.com/NVIDIA/aicr/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/22.svg" alt=""></a><a href="https://github.com/crbnos/carbon/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/23.svg" alt=""></a><a href="https://github.com/reticlehq/reticle/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/24.svg" alt=""></a><a href="https://github.com/volcano-sh/website/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/25.svg" alt=""></a><a href="https://github.com/The-OpenROAD-Project/OpenROAD/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/26.svg" alt=""></a><a href="https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged"><img align="left" width="980" src="./profile/terminal/27.svg" alt=""></a><a href="https://github.com/search?q=author:Dhirenderchoudhary%20is:pr%20is:merged%20-user:Dhirenderchoudhary&amp;type=pullrequests"><img align="left" width="980" src="./profile/terminal/28.svg" alt=""></a><a href="https://github.com/search?q=author:Dhirenderchoudhary%20is:pr%20is:open%20-user:Dhirenderchoudhary&amp;type=pullrequests"><img align="left" width="980" src="./profile/terminal/29.svg" alt=""></a><img align="left" width="980" src="./profile/terminal/30.svg" alt=""><a href="https://github.com/Nano-Collective/nanocoder/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged%20semantic%20memory"><img align="left" width="980" src="./profile/terminal/31.svg" alt=""></a><a href="https://github.com/Nano-Collective/nanocoder/pulls?q=is:pr%20author:Dhirenderchoudhary%20is:merged%20web%20mode"><img align="left" width="980" src="./profile/terminal/32.svg" alt=""></a><a href="https://github.com/Nano-Collective/nanocoder/pull/1067"><img align="left" width="980" src="./profile/terminal/33.svg" alt=""></a><a href="https://github.com/corsairdev/corsair/pull/258"><img align="left" width="980" src="./profile/terminal/34.svg" alt=""></a><a href="https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pull/3961"><img align="left" width="980" src="./profile/terminal/35.svg" alt=""></a><a href="https://github.com/learning-unlimited/ESP-Website/pull/4221"><img align="left" width="980" src="./profile/terminal/36.svg" alt=""></a><a href="https://github.com/OpenPrinting/cups-filters/pull/744"><img align="left" width="980" src="./profile/terminal/37.svg" alt=""></a><a href="https://github.com/NVIDIA/aicr/pull/2138"><img align="left" width="980" src="./profile/terminal/38.svg" alt=""></a><img align="left" width="980" src="./profile/terminal/39.svg" alt=""><a href="https://www.jiitsphere.com/"><img align="left" width="980" src="./profile/terminal/40.svg" alt=""></a><a href="https://prdarmy.dhirenderchoudhary.com/"><img align="left" width="980" src="./profile/terminal/41.svg" alt=""></a><a href="https://konoha-forma.dhirenderchoudhary.com/"><img align="left" width="980" src="./profile/terminal/42.svg" alt=""></a><a href="https://www.zeroinbox.fun"><img align="left" width="980" src="./profile/terminal/43.svg" alt=""></a><a href="https://github.com/Dhirenderchoudhary/unmarkk"><img align="left" width="980" src="./profile/terminal/44.svg" alt=""></a><a href="https://github.com/Dhirenderchoudhary/Kapat"><img align="left" width="980" src="./profile/terminal/45.svg" alt=""></a><img align="left" width="980" src="./profile/terminal/46.svg" alt=""><a href="https://dhirenderchoudhary.com"><img align="left" width="980" src="./profile/terminal/47.svg" alt=""></a><a href="https://github.com/Dhirenderchoudhary"><img align="left" width="980" src="./profile/terminal/48.svg" alt=""></a><a href="https://x.com/Dhirender_0001"><img align="left" width="980" src="./profile/terminal/49.svg" alt=""></a><a href="https://www.linkedin.com/in/dhirender-choudhary0001/"><img align="left" width="980" src="./profile/terminal/50.svg" alt=""></a><a href="mailto:dhirenderchoudhary0001@gmail.com"><img align="left" width="980" src="./profile/terminal/51.svg" alt=""></a><a href="https://calendly.com/dhirenderchoudhary0001/meeting"><img align="left" width="980" src="./profile/terminal/52.svg" alt=""></a><img align="left" width="980" src="./profile/terminal/53.svg" alt=""><a href="https://calendly.com/dhirenderchoudhary0001/meeting"><img align="left" width="980" src="./profile/terminal/54.svg" alt=""></a><img align="left" width="980" src="./profile/terminal/55.svg" alt="">
+<!-- terminal:end -->
 
 <p align="center">
-<a href="https://github.com/ragini-pandey" target="_blank">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DHIRENDERCHOUDHARY&theme=vue" alt="GitHub Profile Summary" />
-</a>
+  <img src="https://komarev.com/ghpvc/?username=Dhirenderchoudhary&label=profile%20views&color=ff9e64&style=for-the-badge&labelColor=131721" alt="Profile views" />
 </p>
 
 <p align="center">
-<a href="https://github.com/ragini-pandey" target="_blank">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DHIRENDERCHOUDHARY&theme=vue" width="320" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/ragini-pandey?tab=repositories" target="_blank">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DHIRENDERCHOUDHARY&theme=vue" width="320" alt="Top Languages" />
-</a>
+  <a href="https://github.com/Dhirenderchoudhary/unmarkk"><img src="https://img.shields.io/badge/unmarkk-0b0e14?style=for-the-badge&logo=github&logoColor=ff9e64&labelColor=131721"></a>
+  <a href="https://github.com/Dhirenderchoudhary/Kapat"><img src="https://img.shields.io/badge/kapat-0b0e14?style=for-the-badge&logo=github&logoColor=f7768e&labelColor=131721"></a>
+  <a href="https://prdarmy.dhirenderchoudhary.com/"><img src="https://img.shields.io/badge/prd--army-0b0e14?style=for-the-badge&logo=vercel&logoColor=bb9af7&labelColor=131721"></a>
+  <a href="https://www.jiitsphere.com/"><img src="https://img.shields.io/badge/jiitsphere-0b0e14?style=for-the-badge&logo=nextdotjs&logoColor=7aa2f7&labelColor=131721"></a>
 </p>
 
- <p align="center">
-<a href="https://github.com/ragini-pandey" target="_blank">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=DHIRENDERCHOUDHARY&theme=vue&hide_border=true" alt="GitHub Streak" />
-</a>
-</p>
-
--->
-
-<!-- GITHUBWALLPAPER:START -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dhirenderchoudhary&label=Profile%20views&color=0e75b6&style=flat" />
-  <br><br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://pub-98d2cd4dac4e4a9d899b190ba95f3ace.r2.dev/cards/hgqb7i87kl86mnorw79sl2wo-dark.svg?v=1785054519653">
-  <source media="(prefers-color-scheme: light)" srcset="https://pub-98d2cd4dac4e4a9d899b190ba95f3ace.r2.dev/cards/hgqb7i87kl86mnorw79sl2wo-light.svg?v=1785054519653">
-  <img alt="GitHub profile card" src="https://pub-98d2cd4dac4e4a9d899b190ba95f3ace.r2.dev/cards/hgqb7i87kl86mnorw79sl2wo-dark.svg?v=1785054519653">
-</picture>
-<!-- GITHUBWALLPAPER:END -->
+  <a href="https://dhirenderchoudhary.com/"><img src="https://img.shields.io/badge/Portfolio-0b0e14?style=for-the-badge&logo=googlechrome&logoColor=ff9e64"></a>
+  <a href="https://x.com/Dhirender_0001"><img src="https://img.shields.io/badge/X-0b0e14?style=for-the-badge&logo=x&logoColor=e6edf3"></a>
+  <a href="https://www.linkedin.com/in/dhirender-choudhary0001/"><img src="https://img.shields.io/badge/LinkedIn-0b0e14?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iIzdhYTJmNyIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B"></a>
+  <a href="mailto:dhirenderchoudhary0001@gmail.com"><img src="https://img.shields.io/badge/Email-0b0e14?style=for-the-badge&logo=gmail&logoColor=f7768e"></a>
+  <a href="https://calendly.com/dhirenderchoudhary0001/meeting"><img src="https://img.shields.io/badge/Book_a_call-0b0e14?style=for-the-badge&logo=calendly&logoColor=9ece6a"></a>
+</p>
+
+<p align="center">
+  <img src="./profile/stats.svg" height="170" alt="GitHub stats" />
+  <img src="./profile/top-langs.svg" height="170" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Dhirenderchoudhary&background=0b0e14&border=262b36&stroke=262b36&ring=ff9e64&fire=f7768e&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=ff9e64&sideLabels=c9d1d9&dates=5c6370" alt="Contribution streak" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dhirenderchoudhary/Dhirenderchoudhary/output/github-contribution-grid-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dhirenderchoudhary/Dhirenderchoudhary/output/github-contribution-grid-snake.svg" alt="Snake eating my contribution graph">
+  </picture>
+</p>
