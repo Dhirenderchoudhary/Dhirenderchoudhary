@@ -1,0 +1,39 @@
+name: Update Stats Cards
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=Dhirenderchoudhary&show_icons=true&include_all_commits=true&count_private=true&bg_color=0b0e14&title_color=ff9e64&text_color=c9d1d9&icon_color=7aa2f7&border_color=262b36
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=Dhirenderchoudhary&layout=compact&langs_count=8&bg_color=0b0e14&title_color=ff9e64&text_color=c9d1d9&border_color=262b36
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg profile/top-langs.svg
+          git commit -m "chore: refresh stats cards" || exit 0
+          git push
