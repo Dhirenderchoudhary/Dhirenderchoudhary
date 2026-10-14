@@ -180,7 +180,7 @@ class Session:
         self.add(f'<g class="fade" style="animation:fade {dur}s ease {self.t:.2f}s forwards">{inner}</g>')
 
     def line(self, spans, size=17, gap=LINE, href=None, src=None):
-        self.place(self.y - 21, href, src)
+        self.place(self.y - size - (gap - size) // 2 + 2, href, src)
         self.fade(f'<text x="{X}" y="{self.y}" font-size="{size}">{spans}</text>')
         self.y += gap
 
