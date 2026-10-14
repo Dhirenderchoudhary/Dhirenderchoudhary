@@ -11,6 +11,7 @@ line with a link becomes its own slice, wrapped in <a> in README.md.
 import base64
 import hashlib
 import io
+import json
 import re
 from dataclasses import dataclass, field
 from html import escape
@@ -24,6 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PORTRAIT = ROOT / "profile" / "portrait.webp"
 OUT_DIR = ROOT / "profile" / "terminal"
 README = ROOT / "README.md"
+VIEWS_TEMPLATE = ROOT / "views" / "template.js"
 
 GH = "Dhirenderchoudhary"
 USER, HOST = "dhirender", "fullstack"
@@ -142,12 +144,15 @@ PALETTE = {
 PHOTO_W = 330
 CELL_W, CELL_H, COLS = 4.6, 7.2, 72
 GLYPHS = "dhirender"
+PACE = 0.55
+VIEWS_URL = "https://dhirender-views.vercel.app/api/views"
 
 
 @dataclass
 class Slice:
     top: int
     href: str | None
+    src: str | None = None
     parts: list = field(default_factory=list)
 
 
@@ -158,10 +163,10 @@ class Session:
         self.slices = [Slice(0, None)]
         self.fresh = False
 
-    def place(self, top, href=None):
+    def place(self, top, href=None, src=None):
         top = int(top)
-        if href:
-            self.slices.append(Slice(top, href))
+        if href or src:
+            self.slices.append(Slice(top, href, src))
             self.fresh = True
         elif self.fresh:
             self.slices.append(Slice(top, None))
@@ -171,28 +176,29 @@ class Session:
         self.slices[-1].parts.append(svg)
 
     def fade(self, inner, delay=0.035, dur=0.3):
-        self.t += delay
+        self.t += delay * PACE
         self.add(f'<g class="fade" style="animation:fade {dur}s ease {self.t:.2f}s forwards">{inner}</g>')
 
-    def line(self, spans, size=17, gap=LINE, href=None):
-        self.place(self.y - 21, href)
+    def line(self, spans, size=17, gap=LINE, href=None, src=None):
+        self.place(self.y - 21, href, src)
         self.fade(f'<text x="{X}" y="{self.y}" font-size="{size}">{spans}</text>')
         self.y += gap
 
     def prompt(self, cmd, gap_before=16):
         self.y += gap_before
         self.place(self.y - 21)
-        self.t += 0.2
+        self.t += 0.2 * PACE
         steps = max(len(cmd), 6)
+        typing = (0.025 * steps + 0.2) * PACE
         spans = (
             f'{span("prompt", USER)}{span("dim", "@")}{span("path", HOST)}'
             f'{span("dim", " ~ ")}{span("branch", "git:(main)")}{span("prompt", " ❯")}{span("cmd", " " + cmd)}'
         )
         self.add(
-            f'<g class="type" style="animation:type {0.025 * steps + 0.2:.2f}s steps({steps},start) {self.t:.2f}s forwards">'
+            f'<g class="type" style="animation:type {typing:.2f}s steps({steps},start) {self.t:.2f}s forwards">'
             f'<text x="{X}" y="{self.y}" font-size="17">{spans}</text></g>'
         )
-        self.t += 0.025 * steps + 0.2
+        self.t += typing
         self.y += LINE
 
 
@@ -230,6 +236,11 @@ def glyph_rows(src):
 def boot(s):
     for msg in ["Started dhirender.service", "Mounted /dev/jiit (B.Tech ECE '27)", "Joined corsair (YC W25) as SWE intern"]:
         s.line(span("dim", "[  ") + span("ok", "OK") + span("dim", "  ] ") + span("muted", msg), size=14, gap=18)
+    s.line(
+        span("dim", "[  ") + span("ok", "OK") + span("dim", "  ] ") + span("muted", "Served ")
+        + span("accent", "__VIEWS__") + span("muted", " profile views"),
+        size=14, gap=18, src=VIEWS_URL,
+    )
 
 
 def wordmark(s):
@@ -259,10 +270,10 @@ def fetch(s):
     for r, cells in rows:
         tspans = "".join(f'<tspan x="{X + c * CELL_W:.1f}" fill="{fill}">{escape(ch)}</tspan>' for c, ch, fill in cells)
         glyphs.append(
-            f'<g class="fade" style="animation:fade .2s ease {start + 0.1 + r * 0.011:.2f}s forwards">'
+            f'<g class="fade" style="animation:fade .2s ease {start + (0.1 + r * 0.011) * PACE:.2f}s forwards">'
             f'<text class="px" y="{top + (r + 1) * CELL_H:.1f}">{tspans}</text></g>'
         )
-    reveal = start + 0.1 + len(rows) * 0.011 + 0.35
+    reveal = start + (0.1 + len(rows) * 0.011 + 0.35) * PACE
     s.add(
         f'<ellipse cx="{X + PHOTO_W / 2}" cy="{top + photo_h * 0.45:.0f}" rx="{PHOTO_W * 0.6:.0f}" ry="{photo_h * 0.45:.0f}" '
         f'fill="url(#glow)" class="fade" style="animation:fade 1s ease {reveal:.2f}s forwards"/>'
@@ -270,7 +281,7 @@ def fetch(s):
         f'<image class="photo" style="animation:fade .9s ease {reveal:.2f}s forwards" x="{X}" y="{top}" '
         f'width="{PHOTO_W}" height="{photo_h:.0f}" href="{photo_uri(src)}"/>'
     )
-    s.t = start + 0.3
+    s.t = start + 0.3 * PACE
 
     ix = X + PHOTO_W + 36
     iy = top + 26
@@ -282,7 +293,7 @@ def fetch(s):
     swatch_y = iy + len(lines) * gap - 10
     colors = ["#f7768e", "#ff9e64", "#e0af68", "#9ece6a", "#7dcfff", "#7aa2f7", "#bb9af7", "#c0caf5"]
     s.fade("".join(f'<rect x="{ix + i * 26}" y="{swatch_y}" width="22" height="14" rx="2" fill="{c}"/>' for i, c in enumerate(colors)), delay=0.04)
-    s.t = max(s.t, reveal + 0.6)
+    s.t = max(s.t, reveal + 0.6 * PACE)
     s.y = max(top + photo_h, swatch_y + 14) + 30
 
 
@@ -410,12 +421,16 @@ def render():
     for i, (sl, bottom) in enumerate(zip(slices, bottoms)):
         h = bottom - sl.top
         name = f"{i:02d}.svg"
-        (OUT_DIR / name).write_text(
+        svg = (
             f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 {sl.top} {W} {h}" width="{W}" height="{h}" '
             "font-family=\"ui-monospace, 'SF Mono', SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace\">\n"
             f"{chrome}\n" + "\n".join(sl.parts) + "\n</svg>\n"
         )
-        img = f'<img align="left" width="{W}" src="./profile/terminal/{name}" alt="">'
+        if sl.src:
+            VIEWS_TEMPLATE.write_text(f"export default {json.dumps(svg)};\n")
+        else:
+            (OUT_DIR / name).write_text(svg)
+        img = f'<img align="left" width="{W}" src="{sl.src or "./profile/terminal/" + name}" alt="">'
         tags.append(f'<a href="{escape(sl.href)}">{img}</a>' if sl.href else img)
 
     block = "<!-- terminal:start -->\n" + "".join(tags) + "\n<!-- terminal:end -->"
