@@ -13,9 +13,9 @@
 </tr>
 </table>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dhirenderchoudhary&label=Profile%20views&color=ff69b4&style=flat" alt="Profile views" height="18">
-</p>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=dhirenderchoudhary&label=Profile%20views&color=58a6ff&style=flat" alt="Profile views" height="20">
+</div>
 
 I build **agent integrations, AI developer tools, and full-stack products**, and contribute to the open-source tools I use. **B.Tech ECE '27 at JIIT.**
 
