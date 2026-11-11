@@ -13,6 +13,10 @@
 </tr>
 </table>
 
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=dhirenderchoudhary&label=Profile%20views&color=ff69b4&style=for-the-badge" alt="Profile views">
+</p>
+
 I build **agent integrations, AI developer tools, and full-stack products**, and contribute to the open-source tools I use. **B.Tech ECE '27 at JIIT.**
 
 ### Experience
